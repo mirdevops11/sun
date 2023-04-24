@@ -1,0 +1,768 @@
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T17:57:09.103749260Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/aws/.docker/contexts
+[2023-04-23T17:57:09.134959316Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/aws/.docker/contexts os.Symlink <HOME>/.docker/contexts -> /mnt/c/Users/aws/.docker/contexts
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T17:57:09.603060744Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/aws/.aws, linkPath = <HOME>/.aws
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T17:57:10.076748090Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/aws/.azure, linkPath = <HOME>/.azure
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T17:57:10.539836193Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/aws/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T17:57:11.436580215Z][docker-desktop-user-distro][I] set path configuration to InsideWslWorkspace
+[2023-04-23T17:57:11.444013254Z][docker-desktop-user-distro in Ubuntu][I] changed the mode of the socket /mnt/wsl/docker-desktop/shared-sockets/host-services/extension-manager.sock to 0660
+[2023-04-23T17:57:11.444460991Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewClient: dfe1592a-LinuxProxyCMD -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendAPI
+[2023-04-23T17:57:11.444981527Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewClient: 5ecec6aa-WSLIntegrationProxy -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendCLI
+[2023-04-23T17:57:11.445484349Z][docker-desktop-user-distro in Ubuntu][I] 2a67a4cd-cross-distro : registering GET /ping
+[2023-04-23T17:57:11.445858264Z][docker-desktop-user-distro in Ubuntu][I] 2a67a4cd-cross-distro : registering GET /
+[2023-04-23T17:57:11.446253461Z][docker-desktop-user-distro in Ubuntu][I] 2a67a4cd-cross-distro : registering GET /goroutines/stacks
+[2023-04-23T17:57:11.446600054Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewServer: 2a67a4cd-cross-distro <- /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu.sock
+[2023-04-23T17:57:11.446964401Z][docker-desktop-user-distro in Ubuntu][I] 2a67a4cd-cross-distro : registering POST /add-mount
+[2023-04-23T17:57:11.447305023Z][docker-desktop-user-distro in Ubuntu][I] 2a67a4cd-cross-distro : registering POST /write
+[2023-04-23T17:57:11.447693537Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewClient: bfe3736f-CrossDistroService -> /var/run/docker.sock WSL2DistroProxy
+[2023-04-23T17:57:11.448091017Z][docker-desktop-user-distro in Ubuntu][I] 2a67a4cd-cross-distro : registering GET /check
+[2023-04-23T17:57:11.449107137Z][docker-desktop-user-distro in Ubuntu][I] add ProxyAutoResume middleware
+[2023-04-23T17:57:11.449110544Z][docker-desktop-user-distro in Ubuntu][I] starting 39f6014c-dockerCLISock for component WSLIntegrationProxy on /var/run/docker-cli.sock
+[2023-04-23T17:57:11.449150190Z][docker-desktop-user-distro in Ubuntu][I] starting 2a67a4cd-cross-distro for component Ubuntu on /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu.sock
+[2023-04-23T17:57:11.450628078Z][docker-desktop-user-distro in Ubuntu][I] dfe1592a-LinuxProxyCMD /pause/state <-- [2023-04-23T10:57:11.450541693-07:00] (c2593cb0) ipc connecting : <nil>
+[2023-04-23T17:57:11.450682092Z][docker-desktop-user-distro in Ubuntu][W] loading versions: unmarshalling components version: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2023-04-23T17:57:11.454200569Z][docker-desktop-user-distro in Ubuntu][I] dfe1592a-LinuxProxyCMD /pause/state <-- [2023-04-23T10:56:43.057661700-07:00] (44ceb687) pause resumed : init
+[2023-04-23T17:57:11.454620102Z][docker-desktop-user-distro in Ubuntu][I] dfe1592a-LinuxProxyCMD /pause/state <-- [2023-04-23T10:57:11.452834900-07:00] (3242a374) ipc ready : <nil>
+[2023-04-23T17:57:11.461923659Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-credential-desktop.exe
+[2023-04-23T17:57:11.462366336Z][docker-desktop-user-distro in Ubuntu][I] cli tools directory /mnt/wsl/docker-desktop/cli-tools has contents
+[2023-04-23T17:57:11.462607497Z][docker-desktop-user-distro in Ubuntu][I] populating cli tools from /mnt/wsl/docker-desktop/cli-tools
+[2023-04-23T17:57:11.462915847Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/com.docker.cli
+[2023-04-23T17:57:11.463206764Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker
+[2023-04-23T17:57:11.463477632Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-compose
+[2023-04-23T17:57:11.463762287Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-compose-v1
+[2023-04-23T17:57:11.464047513Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-index
+[2023-04-23T17:57:11.464317890Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/hub-tool
+[2023-04-23T17:57:11.464674342Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/bin/kubectl
+[2023-04-23T17:57:11.465489703Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-buildx
+[2023-04-23T17:57:11.465973188Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-compose
+[2023-04-23T17:57:11.466472784Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-dev
+[2023-04-23T17:57:11.466895894Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-extension
+[2023-04-23T17:57:11.467259830Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-init
+[2023-04-23T17:57:11.467803431Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-sbom
+[2023-04-23T17:57:11.468236429Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scan
+[2023-04-23T17:57:11.468646444Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scout
+[2023-04-23T17:57:11.469061448Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/snyk
+[2023-04-23T17:57:11.471143813Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/bash-completion/completions/docker
+[2023-04-23T17:57:11.473028675Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/doc/docker-ce-cli/changelog.Debian.gz
+[2023-04-23T17:57:11.475018794Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/fish/vendor_completions.d/docker.fish
+[2023-04-23T17:57:11.478181752Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-attach.1.gz
+[2023-04-23T17:57:11.479279378Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-build.1.gz
+[2023-04-23T17:57:11.480404566Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-builder-build.1.gz
+[2023-04-23T17:57:11.481145394Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-builder-prune.1.gz
+[2023-04-23T17:57:11.482105281Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-builder.1.gz
+[2023-04-23T17:57:11.482717642Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint-create.1.gz
+[2023-04-23T17:57:11.483526816Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint-ls.1.gz
+[2023-04-23T17:57:11.484143546Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint-rm.1.gz
+[2023-04-23T17:57:11.485086160Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint.1.gz
+[2023-04-23T17:57:11.485956425Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-commit.1.gz
+[2023-04-23T17:57:11.487104692Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-create.1.gz
+[2023-04-23T17:57:11.488468117Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-inspect.1.gz
+[2023-04-23T17:57:11.489181471Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-ls.1.gz
+[2023-04-23T17:57:11.490167153Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-rm.1.gz
+[2023-04-23T17:57:11.491670004Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config.1.gz
+[2023-04-23T17:57:11.492391054Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-attach.1.gz
+[2023-04-23T17:57:11.493129662Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-commit.1.gz
+[2023-04-23T17:57:11.493968542Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-cp.1.gz
+[2023-04-23T17:57:11.494561383Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-create.1.gz
+[2023-04-23T17:57:11.495226195Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-diff.1.gz
+[2023-04-23T17:57:11.495983554Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-exec.1.gz
+[2023-04-23T17:57:11.496763637Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-export.1.gz
+[2023-04-23T17:57:11.497536616Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-inspect.1.gz
+[2023-04-23T17:57:11.498326388Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-kill.1.gz
+[2023-04-23T17:57:11.499442764Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-logs.1.gz
+[2023-04-23T17:57:11.500112886Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-ls.1.gz
+[2023-04-23T17:57:11.500836982Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-pause.1.gz
+[2023-04-23T17:57:11.501591486Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-port.1.gz
+[2023-04-23T17:57:11.502302396Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-prune.1.gz
+[2023-04-23T17:57:11.503148389Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-rename.1.gz
+[2023-04-23T17:57:11.504010790Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-restart.1.gz
+[2023-04-23T17:57:11.504940615Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-rm.1.gz
+[2023-04-23T17:57:11.505791488Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-run.1.gz
+[2023-04-23T17:57:11.506578279Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-start.1.gz
+[2023-04-23T17:57:11.507315429Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-stats.1.gz
+[2023-04-23T17:57:11.507992449Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-stop.1.gz
+[2023-04-23T17:57:11.508405670Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-top.1.gz
+[2023-04-23T17:57:11.508774626Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-unpause.1.gz
+[2023-04-23T17:57:11.510323120Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-update.1.gz
+[2023-04-23T17:57:11.511045632Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-wait.1.gz
+[2023-04-23T17:57:11.511682742Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container.1.gz
+[2023-04-23T17:57:11.512094109Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-create.1.gz
+[2023-04-23T17:57:11.512522529Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-export.1.gz
+[2023-04-23T17:57:11.512875875Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-import.1.gz
+[2023-04-23T17:57:11.513250782Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-inspect.1.gz
+[2023-04-23T17:57:11.513621321Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-ls.1.gz
+[2023-04-23T17:57:11.514023761Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-rm.1.gz
+[2023-04-23T17:57:11.515073266Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-update.1.gz
+[2023-04-23T17:57:11.515783315Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-use.1.gz
+[2023-04-23T17:57:11.516414623Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context.1.gz
+[2023-04-23T17:57:11.517073584Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-cp.1.gz
+[2023-04-23T17:57:11.517651590Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-create.1.gz
+[2023-04-23T17:57:11.518266046Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-diff.1.gz
+[2023-04-23T17:57:11.518825506Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-events.1.gz
+[2023-04-23T17:57:11.519641829Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-exec.1.gz
+[2023-04-23T17:57:11.520272305Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-export.1.gz
+[2023-04-23T17:57:11.520938640Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-history.1.gz
+[2023-04-23T17:57:11.521588153Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-build.1.gz
+[2023-04-23T17:57:11.522219141Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-history.1.gz
+[2023-04-23T17:57:11.522931464Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-import.1.gz
+[2023-04-23T17:57:11.523710685Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-inspect.1.gz
+[2023-04-23T17:57:11.524388272Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-load.1.gz
+[2023-04-23T17:57:11.525139259Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-ls.1.gz
+[2023-04-23T17:57:11.525748625Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-prune.1.gz
+[2023-04-23T17:57:11.526335488Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-pull.1.gz
+[2023-04-23T17:57:11.527030057Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-push.1.gz
+[2023-04-23T17:57:11.527741168Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-rm.1.gz
+[2023-04-23T17:57:11.528370172Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-save.1.gz
+[2023-04-23T17:57:11.528962405Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-tag.1.gz
+[2023-04-23T17:57:11.529529490Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image.1.gz
+[2023-04-23T17:57:11.530177450Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-images.1.gz
+[2023-04-23T17:57:11.530960820Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-import.1.gz
+[2023-04-23T17:57:11.531548194Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-info.1.gz
+[2023-04-23T17:57:11.532187397Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-inspect.1.gz
+[2023-04-23T17:57:11.532769270Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-kill.1.gz
+[2023-04-23T17:57:11.534040493Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-load.1.gz
+[2023-04-23T17:57:11.534650801Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-login.1.gz
+[2023-04-23T17:57:11.535204210Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-logout.1.gz
+[2023-04-23T17:57:11.535734835Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-logs.1.gz
+[2023-04-23T17:57:11.536282253Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-annotate.1.gz
+[2023-04-23T17:57:11.536821194Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-create.1.gz
+[2023-04-23T17:57:11.537414008Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-inspect.1.gz
+[2023-04-23T17:57:11.538382602Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-push.1.gz
+[2023-04-23T17:57:11.539279749Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-rm.1.gz
+[2023-04-23T17:57:11.540108956Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest.1.gz
+[2023-04-23T17:57:11.540880472Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-connect.1.gz
+[2023-04-23T17:57:11.541595541Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-create.1.gz
+[2023-04-23T17:57:11.542405741Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-disconnect.1.gz
+[2023-04-23T17:57:11.543171066Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-inspect.1.gz
+[2023-04-23T17:57:11.543968722Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-ls.1.gz
+[2023-04-23T17:57:11.544746020Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-prune.1.gz
+[2023-04-23T17:57:11.545558084Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-rm.1.gz
+[2023-04-23T17:57:11.546325482Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network.1.gz
+[2023-04-23T17:57:11.547132226Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-demote.1.gz
+[2023-04-23T17:57:11.547832516Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-inspect.1.gz
+[2023-04-23T17:57:11.548485205Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-ls.1.gz
+[2023-04-23T17:57:11.551028046Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-promote.1.gz
+[2023-04-23T17:57:11.551849398Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-ps.1.gz
+[2023-04-23T17:57:11.552440910Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-rm.1.gz
+[2023-04-23T17:57:11.553209286Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-update.1.gz
+[2023-04-23T17:57:11.553908444Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node.1.gz
+[2023-04-23T17:57:11.554477422Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-pause.1.gz
+[2023-04-23T17:57:11.555072471Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-create.1.gz
+[2023-04-23T17:57:11.555667730Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-disable.1.gz
+[2023-04-23T17:57:11.556268710Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-enable.1.gz
+[2023-04-23T17:57:11.556947449Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-inspect.1.gz
+[2023-04-23T17:57:11.557622381Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-install.1.gz
+[2023-04-23T17:57:11.558170309Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-ls.1.gz
+[2023-04-23T17:57:11.558756902Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-push.1.gz
+[2023-04-23T17:57:11.559377019Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-rm.1.gz
+[2023-04-23T17:57:11.560014298Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-set.1.gz
+[2023-04-23T17:57:11.560608696Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-upgrade.1.gz
+[2023-04-23T17:57:11.561222280Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin.1.gz
+[2023-04-23T17:57:11.561792160Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-port.1.gz
+[2023-04-23T17:57:11.562400605Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-ps.1.gz
+[2023-04-23T17:57:11.562984412Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-pull.1.gz
+[2023-04-23T17:57:11.563665195Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-push.1.gz
+[2023-04-23T17:57:11.564307554Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-rename.1.gz
+[2023-04-23T17:57:11.564972116Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-restart.1.gz
+[2023-04-23T17:57:11.565562706Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-rm.1.gz
+[2023-04-23T17:57:11.566196709Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-rmi.1.gz
+[2023-04-23T17:57:11.566857133Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-run.1.gz
+[2023-04-23T17:57:11.567580758Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-save.1.gz
+[2023-04-23T17:57:11.568246181Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-search.1.gz
+[2023-04-23T17:57:11.568877389Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-create.1.gz
+[2023-04-23T17:57:11.569488278Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-inspect.1.gz
+[2023-04-23T17:57:11.570689231Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-ls.1.gz
+[2023-04-23T17:57:11.571122180Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-rm.1.gz
+[2023-04-23T17:57:11.571543316Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret.1.gz
+[2023-04-23T17:57:11.571848069Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-create.1.gz
+[2023-04-23T17:57:11.572226864Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-inspect.1.gz
+[2023-04-23T17:57:11.572595669Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-logs.1.gz
+[2023-04-23T17:57:11.572889872Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-ls.1.gz
+[2023-04-23T17:57:11.573233660Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-ps.1.gz
+[2023-04-23T17:57:11.573578430Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-rm.1.gz
+[2023-04-23T17:57:11.573941775Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-rollback.1.gz
+[2023-04-23T17:57:11.574280474Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-scale.1.gz
+[2023-04-23T17:57:11.574582472Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-update.1.gz
+[2023-04-23T17:57:11.574998067Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service.1.gz
+[2023-04-23T17:57:11.575462385Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-deploy.1.gz
+[2023-04-23T17:57:11.575805672Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-ls.1.gz
+[2023-04-23T17:57:11.576240354Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-ps.1.gz
+[2023-04-23T17:57:11.576589713Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-rm.1.gz
+[2023-04-23T17:57:11.576959260Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-services.1.gz
+[2023-04-23T17:57:11.577269844Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack.1.gz
+[2023-04-23T17:57:11.577731528Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-start.1.gz
+[2023-04-23T17:57:11.578165839Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stats.1.gz
+[2023-04-23T17:57:11.578682878Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stop.1.gz
+[2023-04-23T17:57:11.579095228Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-ca.1.gz
+[2023-04-23T17:57:11.581010182Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-init.1.gz
+[2023-04-23T17:57:11.581545146Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-join-token.1.gz
+[2023-04-23T17:57:11.582059991Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-join.1.gz
+[2023-04-23T17:57:11.582496987Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-leave.1.gz
+[2023-04-23T17:57:11.582968099Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-unlock-key.1.gz
+[2023-04-23T17:57:11.583522440Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-unlock.1.gz
+[2023-04-23T17:57:11.583994513Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-update.1.gz
+[2023-04-23T17:57:11.584446789Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm.1.gz
+[2023-04-23T17:57:11.584902070Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-df.1.gz
+[2023-04-23T17:57:11.585437795Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-events.1.gz
+[2023-04-23T17:57:11.585937942Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-info.1.gz
+[2023-04-23T17:57:11.586640948Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-prune.1.gz
+[2023-04-23T17:57:11.587174489Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system.1.gz
+[2023-04-23T17:57:11.587621384Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-tag.1.gz
+[2023-04-23T17:57:11.587984789Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-top.1.gz
+[2023-04-23T17:57:11.588341141Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-inspect.1.gz
+[2023-04-23T17:57:11.588694427Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-key-generate.1.gz
+[2023-04-23T17:57:11.589179816Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-key-load.1.gz
+[2023-04-23T17:57:11.589503155Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-key.1.gz
+[2023-04-23T17:57:11.589836593Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-revoke.1.gz
+[2023-04-23T17:57:11.590148260Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-sign.1.gz
+[2023-04-23T17:57:11.590533437Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-signer-add.1.gz
+[2023-04-23T17:57:11.590838661Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-signer-remove.1.gz
+[2023-04-23T17:57:11.591125209Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-signer.1.gz
+[2023-04-23T17:57:11.591550743Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust.1.gz
+[2023-04-23T17:57:11.591867099Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-unpause.1.gz
+[2023-04-23T17:57:11.592197842Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-update.1.gz
+[2023-04-23T17:57:11.592588349Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-version.1.gz
+[2023-04-23T17:57:11.592945012Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-create.1.gz
+[2023-04-23T17:57:11.593280744Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-inspect.1.gz
+[2023-04-23T17:57:11.594467074Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-ls.1.gz
+[2023-04-23T17:57:11.594970468Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-prune.1.gz
+[2023-04-23T17:57:11.595421110Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-rm.1.gz
+[2023-04-23T17:57:11.595911248Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume.1.gz
+[2023-04-23T17:57:11.596423258Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-wait.1.gz
+[2023-04-23T17:57:11.596858551Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker.1.gz
+[2023-04-23T17:57:11.600134336Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man5/Dockerfile.5.gz
+[2023-04-23T17:57:11.601049587Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man5/docker-config-json.5.gz
+[2023-04-23T17:57:11.602745182Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man8/dockerd.8.gz
+[2023-04-23T17:57:11.603855567Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/zsh/vendor-completions/_docker
+[2023-04-23T17:57:11.604345394Z][docker-desktop-user-distro in Ubuntu][I] cli tools successfully installed
+[2023-04-23T17:57:11.604553092Z][docker-desktop-user-distro in Ubuntu][I] docker-desktop-user-distro proxy has started
+[2023-04-23T17:57:20.918776094Z][docker-desktop-user-distro in Ubuntu][I] (b2fa8fc6-8-1) 2a67a4cd-cross-distro S<-C f52e5516-cross-distro-router GET /check
+[2023-04-23T17:57:20.919283535Z][docker-desktop-user-distro in Ubuntu][I] (b2fa8fc6-8-1-1) bfe3736f-CrossDistroService C->S WSL2DistroProxy GET /desktop-diagnostics/ping
+[2023-04-23T17:57:20.920414975Z][docker-desktop-user-distro in Ubuntu][I] (b2fa8fc6-8-1-1) bfe3736f-CrossDistroService C<-S UnknownServer GET /desktop-diagnostics/ping (1.123585ms): OK
+[2023-04-23T17:57:20.920896516Z][docker-desktop-user-distro in Ubuntu][I] (b2fa8fc6-8-1) 2a67a4cd-cross-distro S->C f52e5516-cross-distro-router GET /check (2.122826ms): OK
+[2023-04-23T18:12:53.314171174Z][docker-desktop-user-distro in Ubuntu][I] docker-desktop-proxy has terminated on signal terminated
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T18:13:07.698897104Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/aws/.docker/contexts
+[2023-04-23T18:13:07.713860627Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/aws/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T18:13:08.158116282Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/aws/.aws, linkPath = <HOME>/.aws
+[2023-04-23T18:13:08.177988195Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.aws to /mnt/c/Users/aws/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T18:13:08.684920382Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/aws/.azure, linkPath = <HOME>/.azure
+[2023-04-23T18:13:08.704372610Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.azure to /mnt/c/Users/aws/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T18:13:09.209561063Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/aws/.docker/features.json, linkPath = ~/.docker/features.json
+[2023-04-23T18:13:09.240599175Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.docker/features.json to /mnt/c/Users/aws/.docker/features.json: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T18:13:10.163176603Z][docker-desktop-user-distro][I] set path configuration to InsideWslWorkspace
+[2023-04-23T18:13:10.164040793Z][docker-desktop-user-distro in Ubuntu][I] changed the mode of the socket /mnt/wsl/docker-desktop/shared-sockets/host-services/extension-manager.sock to 0660
+[2023-04-23T18:13:10.164477312Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewClient: 4c19f840-LinuxProxyCMD -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendAPI
+[2023-04-23T18:13:10.164915844Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewClient: a0287a51-WSLIntegrationProxy -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendCLI
+[2023-04-23T18:13:10.165509655Z][docker-desktop-user-distro in Ubuntu][I] 0253e943-cross-distro : registering GET /ping
+[2023-04-23T18:13:10.165919181Z][docker-desktop-user-distro in Ubuntu][I] 0253e943-cross-distro : registering GET /
+[2023-04-23T18:13:10.165746084Z][docker-desktop-user-distro in Ubuntu][I] starting c0a6186f-dockerCLISock for component WSLIntegrationProxy on /var/run/docker-cli.sock
+[2023-04-23T18:13:10.169689648Z][docker-desktop-user-distro in Ubuntu][I] 0253e943-cross-distro : registering GET /goroutines/stacks
+[2023-04-23T18:13:10.168161393Z][docker-desktop-user-distro in Ubuntu][I] add ProxyAutoResume middleware
+[2023-04-23T18:13:10.171902383Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewServer: 0253e943-cross-distro <- /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu.sock
+[2023-04-23T18:13:10.172323983Z][docker-desktop-user-distro in Ubuntu][I] 0253e943-cross-distro : registering POST /add-mount
+[2023-04-23T18:13:10.172207395Z][docker-desktop-user-distro in Ubuntu][W] loading versions: unmarshalling components version: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2023-04-23T18:13:10.172679135Z][docker-desktop-user-distro in Ubuntu][I] 0253e943-cross-distro : registering POST /write
+[2023-04-23T18:13:10.173442362Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewClient: fee86000-CrossDistroService -> /var/run/docker.sock WSL2DistroProxy
+[2023-04-23T18:13:10.173828243Z][docker-desktop-user-distro in Ubuntu][I] 0253e943-cross-distro : registering GET /check
+[2023-04-23T18:13:10.173125328Z][docker-desktop-user-distro in Ubuntu][I] 4c19f840-LinuxProxyCMD /pause/state <-- [2023-04-23T11:13:10.171821959-07:00] (4dc606ee) ipc connecting : <nil>
+[2023-04-23T18:13:10.174299994Z][docker-desktop-user-distro in Ubuntu][I] starting 0253e943-cross-distro for component Ubuntu on /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu.sock
+[2023-04-23T18:13:10.178345445Z][docker-desktop-user-distro in Ubuntu][I] 4c19f840-LinuxProxyCMD /pause/state <-- [2023-04-23T10:56:43.057661700-07:00] (44ceb687) pause resumed : init
+[2023-04-23T18:13:10.178868009Z][docker-desktop-user-distro in Ubuntu][I] 4c19f840-LinuxProxyCMD /pause/state <-- [2023-04-23T11:13:10.177358700-07:00] (dc3c9da6) ipc ready : <nil>
+[2023-04-23T18:13:10.180356057Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-credential-desktop.exe
+[2023-04-23T18:13:10.180845287Z][docker-desktop-user-distro in Ubuntu][I] cli tools directory /mnt/wsl/docker-desktop/cli-tools has contents
+[2023-04-23T18:13:10.181134312Z][docker-desktop-user-distro in Ubuntu][I] populating cli tools from /mnt/wsl/docker-desktop/cli-tools
+[2023-04-23T18:13:10.181594526Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/com.docker.cli
+[2023-04-23T18:13:10.182044420Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker
+[2023-04-23T18:13:10.182397308Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-compose
+[2023-04-23T18:13:10.182885656Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-compose-v1
+[2023-04-23T18:13:10.183295773Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-index
+[2023-04-23T18:13:10.183700931Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/hub-tool
+[2023-04-23T18:13:10.184346271Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/bin/kubectl
+[2023-04-23T18:13:10.184930653Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-buildx
+[2023-04-23T18:13:10.185729297Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-compose
+[2023-04-23T18:13:10.187186847Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-dev
+[2023-04-23T18:13:10.189112816Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-extension
+[2023-04-23T18:13:10.190643401Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-init
+[2023-04-23T18:13:10.191245026Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-sbom
+[2023-04-23T18:13:10.191925047Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scan
+[2023-04-23T18:13:10.192576539Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scout
+[2023-04-23T18:13:10.193274890Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/snyk
+[2023-04-23T18:13:10.193610354Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/bash-completion/completions/docker
+[2023-04-23T18:13:10.194440208Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/doc/docker-ce-cli/changelog.Debian.gz
+[2023-04-23T18:13:10.195197793Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/fish/vendor_completions.d/docker.fish
+[2023-04-23T18:13:10.196079146Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-attach.1.gz
+[2023-04-23T18:13:10.196797927Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-build.1.gz
+[2023-04-23T18:13:10.197445651Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-builder-build.1.gz
+[2023-04-23T18:13:10.198058428Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-builder-prune.1.gz
+[2023-04-23T18:13:10.198661216Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-builder.1.gz
+[2023-04-23T18:13:10.199251530Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint-create.1.gz
+[2023-04-23T18:13:10.199999246Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint-ls.1.gz
+[2023-04-23T18:13:10.200542650Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint-rm.1.gz
+[2023-04-23T18:13:10.201207947Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint.1.gz
+[2023-04-23T18:13:10.201818159Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-commit.1.gz
+[2023-04-23T18:13:10.202430997Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-create.1.gz
+[2023-04-23T18:13:10.203071026Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-inspect.1.gz
+[2023-04-23T18:13:10.204000992Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-ls.1.gz
+[2023-04-23T18:13:10.205466176Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-rm.1.gz
+[2023-04-23T18:13:10.206424717Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config.1.gz
+[2023-04-23T18:13:10.207424308Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-attach.1.gz
+[2023-04-23T18:13:10.208014131Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-commit.1.gz
+[2023-04-23T18:13:10.208523048Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-cp.1.gz
+[2023-04-23T18:13:10.209006747Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-create.1.gz
+[2023-04-23T18:13:10.209416735Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-diff.1.gz
+[2023-04-23T18:13:10.210035223Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-exec.1.gz
+[2023-04-23T18:13:10.210447094Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-export.1.gz
+[2023-04-23T18:13:10.210852422Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-inspect.1.gz
+[2023-04-23T18:13:10.211418991Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-kill.1.gz
+[2023-04-23T18:13:10.212002471Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-logs.1.gz
+[2023-04-23T18:13:10.212396678Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-ls.1.gz
+[2023-04-23T18:13:10.212910305Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-pause.1.gz
+[2023-04-23T18:13:10.213331103Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-port.1.gz
+[2023-04-23T18:13:10.213822962Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-prune.1.gz
+[2023-04-23T18:13:10.214438525Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-rename.1.gz
+[2023-04-23T18:13:10.214907185Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-restart.1.gz
+[2023-04-23T18:13:10.215455338Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-rm.1.gz
+[2023-04-23T18:13:10.215903960Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-run.1.gz
+[2023-04-23T18:13:10.216635605Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-start.1.gz
+[2023-04-23T18:13:10.217136878Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-stats.1.gz
+[2023-04-23T18:13:10.217561434Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-stop.1.gz
+[2023-04-23T18:13:10.218557502Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-top.1.gz
+[2023-04-23T18:13:10.219224683Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-unpause.1.gz
+[2023-04-23T18:13:10.220034669Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-update.1.gz
+[2023-04-23T18:13:10.220981638Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-wait.1.gz
+[2023-04-23T18:13:10.221933948Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container.1.gz
+[2023-04-23T18:13:10.222753893Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-create.1.gz
+[2023-04-23T18:13:10.223860975Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-export.1.gz
+[2023-04-23T18:13:10.224514901Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-import.1.gz
+[2023-04-23T18:13:10.224954755Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-inspect.1.gz
+[2023-04-23T18:13:10.225555309Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-ls.1.gz
+[2023-04-23T18:13:10.226183115Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-rm.1.gz
+[2023-04-23T18:13:10.226583263Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-update.1.gz
+[2023-04-23T18:13:10.227136306Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-use.1.gz
+[2023-04-23T18:13:10.228056257Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context.1.gz
+[2023-04-23T18:13:10.229034526Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-cp.1.gz
+[2023-04-23T18:13:10.229800648Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-create.1.gz
+[2023-04-23T18:13:10.230470685Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-diff.1.gz
+[2023-04-23T18:13:10.231080225Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-events.1.gz
+[2023-04-23T18:13:10.231820477Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-exec.1.gz
+[2023-04-23T18:13:10.232438675Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-export.1.gz
+[2023-04-23T18:13:10.233098522Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-history.1.gz
+[2023-04-23T18:13:10.233837221Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-build.1.gz
+[2023-04-23T18:13:10.234558947Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-history.1.gz
+[2023-04-23T18:13:10.235035412Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-import.1.gz
+[2023-04-23T18:13:10.235429319Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-inspect.1.gz
+[2023-04-23T18:13:10.235954147Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-load.1.gz
+[2023-04-23T18:13:10.236916345Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-ls.1.gz
+[2023-04-23T18:13:10.237602854Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-prune.1.gz
+[2023-04-23T18:13:10.238967875Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-pull.1.gz
+[2023-04-23T18:13:10.239953308Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-push.1.gz
+[2023-04-23T18:13:10.240677219Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-rm.1.gz
+[2023-04-23T18:13:10.241208830Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-save.1.gz
+[2023-04-23T18:13:10.241578390Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-tag.1.gz
+[2023-04-23T18:13:10.241999959Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image.1.gz
+[2023-04-23T18:13:10.242458480Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-images.1.gz
+[2023-04-23T18:13:10.242906140Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-import.1.gz
+[2023-04-23T18:13:10.244302863Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-info.1.gz
+[2023-04-23T18:13:10.244883688Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-inspect.1.gz
+[2023-04-23T18:13:10.245360223Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-kill.1.gz
+[2023-04-23T18:13:10.245857879Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-load.1.gz
+[2023-04-23T18:13:10.246266264Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-login.1.gz
+[2023-04-23T18:13:10.246691711Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-logout.1.gz
+[2023-04-23T18:13:10.247051963Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-logs.1.gz
+[2023-04-23T18:13:10.247472681Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-annotate.1.gz
+[2023-04-23T18:13:10.248022307Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-create.1.gz
+[2023-04-23T18:13:10.248384813Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-inspect.1.gz
+[2023-04-23T18:13:10.248715688Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-push.1.gz
+[2023-04-23T18:13:10.249144272Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-rm.1.gz
+[2023-04-23T18:13:10.249503762Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest.1.gz
+[2023-04-23T18:13:10.249819178Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-connect.1.gz
+[2023-04-23T18:13:10.250209728Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-create.1.gz
+[2023-04-23T18:13:10.250604887Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-disconnect.1.gz
+[2023-04-23T18:13:10.252005728Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-inspect.1.gz
+[2023-04-23T18:13:10.252679793Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-ls.1.gz
+[2023-04-23T18:13:10.253548582Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-prune.1.gz
+[2023-04-23T18:13:10.254482826Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-rm.1.gz
+[2023-04-23T18:13:10.255322589Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network.1.gz
+[2023-04-23T18:13:10.256348370Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-demote.1.gz
+[2023-04-23T18:13:10.257311630Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-inspect.1.gz
+[2023-04-23T18:13:10.257950106Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-ls.1.gz
+[2023-04-23T18:13:10.258497287Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-promote.1.gz
+[2023-04-23T18:13:10.259101147Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-ps.1.gz
+[2023-04-23T18:13:10.259731838Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-rm.1.gz
+[2023-04-23T18:13:10.260333704Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-update.1.gz
+[2023-04-23T18:13:10.260836160Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node.1.gz
+[2023-04-23T18:13:10.261370426Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-pause.1.gz
+[2023-04-23T18:13:10.261977973Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-create.1.gz
+[2023-04-23T18:13:10.262553027Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-disable.1.gz
+[2023-04-23T18:13:10.263123644Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-enable.1.gz
+[2023-04-23T18:13:10.263686715Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-inspect.1.gz
+[2023-04-23T18:13:10.264533261Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-install.1.gz
+[2023-04-23T18:13:10.265320623Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-ls.1.gz
+[2023-04-23T18:13:10.265942287Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-push.1.gz
+[2023-04-23T18:13:10.266670787Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-rm.1.gz
+[2023-04-23T18:13:10.267372935Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-set.1.gz
+[2023-04-23T18:13:10.268131893Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-upgrade.1.gz
+[2023-04-23T18:13:10.269082640Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin.1.gz
+[2023-04-23T18:13:10.270796812Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-port.1.gz
+[2023-04-23T18:13:10.272862710Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-ps.1.gz
+[2023-04-23T18:13:10.274008511Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-pull.1.gz
+[2023-04-23T18:13:10.275058488Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-push.1.gz
+[2023-04-23T18:13:10.276025475Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-rename.1.gz
+[2023-04-23T18:13:10.277130187Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-restart.1.gz
+[2023-04-23T18:13:10.278524615Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-rm.1.gz
+[2023-04-23T18:13:10.279575889Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-rmi.1.gz
+[2023-04-23T18:13:10.280136506Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-run.1.gz
+[2023-04-23T18:13:10.280470036Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-save.1.gz
+[2023-04-23T18:13:10.280928998Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-search.1.gz
+[2023-04-23T18:13:10.281310571Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-create.1.gz
+[2023-04-23T18:13:10.281653830Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-inspect.1.gz
+[2023-04-23T18:13:10.281964437Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-ls.1.gz
+[2023-04-23T18:13:10.282325751Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-rm.1.gz
+[2023-04-23T18:13:10.282603534Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret.1.gz
+[2023-04-23T18:13:10.282878102Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-create.1.gz
+[2023-04-23T18:13:10.283215299Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-inspect.1.gz
+[2023-04-23T18:13:10.283542959Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-logs.1.gz
+[2023-04-23T18:13:10.283930724Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-ls.1.gz
+[2023-04-23T18:13:10.284344859Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-ps.1.gz
+[2023-04-23T18:13:10.284636820Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-rm.1.gz
+[2023-04-23T18:13:10.284958858Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-rollback.1.gz
+[2023-04-23T18:13:10.285397952Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-scale.1.gz
+[2023-04-23T18:13:10.285757472Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-update.1.gz
+[2023-04-23T18:13:10.286081465Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service.1.gz
+[2023-04-23T18:13:10.286618596Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-deploy.1.gz
+[2023-04-23T18:13:10.287052229Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-ls.1.gz
+[2023-04-23T18:13:10.287557860Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-ps.1.gz
+[2023-04-23T18:13:10.288102046Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-rm.1.gz
+[2023-04-23T18:13:10.288711396Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-services.1.gz
+[2023-04-23T18:13:10.289199614Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack.1.gz
+[2023-04-23T18:13:10.290064289Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-start.1.gz
+[2023-04-23T18:13:10.290479346Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stats.1.gz
+[2023-04-23T18:13:10.290808098Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stop.1.gz
+[2023-04-23T18:13:10.291101431Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-ca.1.gz
+[2023-04-23T18:13:10.291542468Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-init.1.gz
+[2023-04-23T18:13:10.291857764Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-join-token.1.gz
+[2023-04-23T18:13:10.292199921Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-join.1.gz
+[2023-04-23T18:13:10.292495869Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-leave.1.gz
+[2023-04-23T18:13:10.292768734Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-unlock-key.1.gz
+[2023-04-23T18:13:10.293089029Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-unlock.1.gz
+[2023-04-23T18:13:10.293725090Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-update.1.gz
+[2023-04-23T18:13:10.294345191Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm.1.gz
+[2023-04-23T18:13:10.294658493Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-df.1.gz
+[2023-04-23T18:13:10.294969010Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-events.1.gz
+[2023-04-23T18:13:10.295288042Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-info.1.gz
+[2023-04-23T18:13:10.295569553Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-prune.1.gz
+[2023-04-23T18:13:10.295849070Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system.1.gz
+[2023-04-23T18:13:10.296159266Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-tag.1.gz
+[2023-04-23T18:13:10.296513727Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-top.1.gz
+[2023-04-23T18:13:10.296803183Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-inspect.1.gz
+[2023-04-23T18:13:10.297093290Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-key-generate.1.gz
+[2023-04-23T18:13:10.297423113Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-key-load.1.gz
+[2023-04-23T18:13:10.297705055Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-key.1.gz
+[2023-04-23T18:13:10.298013056Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-revoke.1.gz
+[2023-04-23T18:13:10.298375052Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-sign.1.gz
+[2023-04-23T18:13:10.298659779Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-signer-add.1.gz
+[2023-04-23T18:13:10.298933294Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-signer-remove.1.gz
+[2023-04-23T18:13:10.299233350Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-signer.1.gz
+[2023-04-23T18:13:10.299527966Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust.1.gz
+[2023-04-23T18:13:10.299819927Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-unpause.1.gz
+[2023-04-23T18:13:10.300926217Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-update.1.gz
+[2023-04-23T18:13:10.301376352Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-version.1.gz
+[2023-04-23T18:13:10.301748817Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-create.1.gz
+[2023-04-23T18:13:10.302276511Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-inspect.1.gz
+[2023-04-23T18:13:10.302813372Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-ls.1.gz
+[2023-04-23T18:13:10.303563783Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-prune.1.gz
+[2023-04-23T18:13:10.304370763Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-rm.1.gz
+[2023-04-23T18:13:10.305191219Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume.1.gz
+[2023-04-23T18:13:10.305801952Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-wait.1.gz
+[2023-04-23T18:13:10.306678356Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker.1.gz
+[2023-04-23T18:13:10.307035712Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man5/Dockerfile.5.gz
+[2023-04-23T18:13:10.307379863Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man5/docker-config-json.5.gz
+[2023-04-23T18:13:10.307703344Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man8/dockerd.8.gz
+[2023-04-23T18:13:10.308068165Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/zsh/vendor-completions/_docker
+[2023-04-23T18:13:10.308428287Z][docker-desktop-user-distro in Ubuntu][I] cli tools successfully installed
+[2023-04-23T18:13:10.308646656Z][docker-desktop-user-distro in Ubuntu][I] docker-desktop-user-distro proxy has started
+[2023-04-23T18:13:10.860006929Z][docker-desktop-user-distro in Ubuntu][I] (fd348046-1) 0253e943-cross-distro S<-C 4ad0ecb5-cross-distro-router GET /check
+[2023-04-23T18:13:10.860494215Z][docker-desktop-user-distro in Ubuntu][I] (fd348046-1-1) fee86000-CrossDistroService C->S WSL2DistroProxy GET /desktop-diagnostics/ping
+[2023-04-23T18:13:10.862800281Z][docker-desktop-user-distro in Ubuntu][I] (fd348046-1-1) fee86000-CrossDistroService C<-S UnknownServer GET /desktop-diagnostics/ping (2.292169ms): OK
+[2023-04-23T18:13:10.863315020Z][docker-desktop-user-distro in Ubuntu][I] (fd348046-1) 0253e943-cross-distro S->C 4ad0ecb5-cross-distro-router GET /check (3.33379ms): OK
+[2023-04-23T18:15:17.670469876Z][docker-desktop-user-distro in Ubuntu][I] set ipc in shutting mode state
+[2023-04-23T18:15:17.670624928Z][docker-desktop-user-distro in Ubuntu][I] docker-desktop-proxy has terminated on signal terminated
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T18:15:32.374985090Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/aws/.docker/contexts
+[2023-04-23T18:15:32.394105937Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/aws/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T18:15:32.875100267Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/aws/.aws, linkPath = <HOME>/.aws
+[2023-04-23T18:15:32.892709697Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.aws to /mnt/c/Users/aws/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T18:15:33.425288853Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/aws/.azure, linkPath = <HOME>/.azure
+[2023-04-23T18:15:33.447725092Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.azure to /mnt/c/Users/aws/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T18:15:33.957486290Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/aws/.docker/features.json, linkPath = ~/.docker/features.json
+[2023-04-23T18:15:33.988489278Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.docker/features.json to /mnt/c/Users/aws/.docker/features.json: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-04-23T18:15:35.024897878Z][docker-desktop-user-distro][I] set path configuration to InsideWslWorkspace
+[2023-04-23T18:15:35.025628798Z][docker-desktop-user-distro in Ubuntu][I] changed the mode of the socket /mnt/wsl/docker-desktop/shared-sockets/host-services/extension-manager.sock to 0660
+[2023-04-23T18:15:35.025960142Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewClient: fe8819bc-LinuxProxyCMD -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendAPI
+[2023-04-23T18:15:35.026366189Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewClient: d79fccaa-WSLIntegrationProxy -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendCLI
+[2023-04-23T18:15:35.028039668Z][docker-desktop-user-distro in Ubuntu][I] 9da494d4-cross-distro : registering GET /ping
+[2023-04-23T18:15:35.028759346Z][docker-desktop-user-distro in Ubuntu][I] 9da494d4-cross-distro : registering GET /
+[2023-04-23T18:15:35.035401999Z][docker-desktop-user-distro in Ubuntu][I] 9da494d4-cross-distro : registering GET /goroutines/stacks
+[2023-04-23T18:15:35.031241533Z][docker-desktop-user-distro in Ubuntu][I] starting 750b6c30-dockerCLISock for component WSLIntegrationProxy on /var/run/docker-cli.sock
+[2023-04-23T18:15:35.031271791Z][docker-desktop-user-distro in Ubuntu][I] add ProxyAutoResume middleware
+[2023-04-23T18:15:35.035987995Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewServer: 9da494d4-cross-distro <- /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu.sock
+[2023-04-23T18:15:35.038967239Z][docker-desktop-user-distro in Ubuntu][I] 9da494d4-cross-distro : registering POST /add-mount
+[2023-04-23T18:15:35.039050434Z][docker-desktop-user-distro in Ubuntu][W] loading versions: unmarshalling components version: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2023-04-23T18:15:35.038888254Z][docker-desktop-user-distro in Ubuntu][I] fe8819bc-LinuxProxyCMD /pause/state <-- [2023-04-23T11:15:35.038778033-07:00] (63f4d665) ipc connecting : <nil>
+[2023-04-23T18:15:35.039393946Z][docker-desktop-user-distro in Ubuntu][I] 9da494d4-cross-distro : registering POST /write
+[2023-04-23T18:15:35.040820133Z][docker-desktop-user-distro in Ubuntu][I] ipc.NewClient: 53a6dbc7-CrossDistroService -> /var/run/docker.sock WSL2DistroProxy
+[2023-04-23T18:15:35.041157258Z][docker-desktop-user-distro in Ubuntu][I] 9da494d4-cross-distro : registering GET /check
+[2023-04-23T18:15:35.042284797Z][docker-desktop-user-distro in Ubuntu][I] starting 9da494d4-cross-distro for component Ubuntu on /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu.sock
+[2023-04-23T18:15:35.043421248Z][docker-desktop-user-distro in Ubuntu][I] fe8819bc-LinuxProxyCMD /pause/state <-- [2023-04-23T10:56:43.057661700-07:00] (44ceb687) pause resumed : init
+[2023-04-23T18:15:35.043885597Z][docker-desktop-user-distro in Ubuntu][I] fe8819bc-LinuxProxyCMD /pause/state <-- [2023-04-23T11:15:35.042199200-07:00] (82449374) ipc ready : <nil>
+[2023-04-23T18:15:35.049549366Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-credential-desktop.exe
+[2023-04-23T18:15:35.050049704Z][docker-desktop-user-distro in Ubuntu][I] cli tools directory /mnt/wsl/docker-desktop/cli-tools has contents
+[2023-04-23T18:15:35.050337485Z][docker-desktop-user-distro in Ubuntu][I] populating cli tools from /mnt/wsl/docker-desktop/cli-tools
+[2023-04-23T18:15:35.050778980Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/com.docker.cli
+[2023-04-23T18:15:35.051189676Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker
+[2023-04-23T18:15:35.051526812Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-compose
+[2023-04-23T18:15:35.051925075Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-compose-v1
+[2023-04-23T18:15:35.052296746Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/docker-index
+[2023-04-23T18:15:35.052605738Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/bin/hub-tool
+[2023-04-23T18:15:35.053075417Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/bin/kubectl
+[2023-04-23T18:15:35.053513997Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-buildx
+[2023-04-23T18:15:35.054514573Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-compose
+[2023-04-23T18:15:35.055128979Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-dev
+[2023-04-23T18:15:35.055667520Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-extension
+[2023-04-23T18:15:35.057692463Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-init
+[2023-04-23T18:15:35.058572969Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-sbom
+[2023-04-23T18:15:35.059682387Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scan
+[2023-04-23T18:15:35.060538817Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scout
+[2023-04-23T18:15:35.061781841Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/local/lib/docker/snyk
+[2023-04-23T18:15:35.062625488Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/bash-completion/completions/docker
+[2023-04-23T18:15:35.063575046Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/doc/docker-ce-cli/changelog.Debian.gz
+[2023-04-23T18:15:35.064563037Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/fish/vendor_completions.d/docker.fish
+[2023-04-23T18:15:35.065614811Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-attach.1.gz
+[2023-04-23T18:15:35.066531756Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-build.1.gz
+[2023-04-23T18:15:35.067318312Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-builder-build.1.gz
+[2023-04-23T18:15:35.068082455Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-builder-prune.1.gz
+[2023-04-23T18:15:35.068899971Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-builder.1.gz
+[2023-04-23T18:15:35.069626351Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint-create.1.gz
+[2023-04-23T18:15:35.070234786Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint-ls.1.gz
+[2023-04-23T18:15:35.070961478Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint-rm.1.gz
+[2023-04-23T18:15:35.071740785Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-checkpoint.1.gz
+[2023-04-23T18:15:35.072648142Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-commit.1.gz
+[2023-04-23T18:15:35.073829268Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-create.1.gz
+[2023-04-23T18:15:35.074843810Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-inspect.1.gz
+[2023-04-23T18:15:35.075852111Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-ls.1.gz
+[2023-04-23T18:15:35.076987906Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config-rm.1.gz
+[2023-04-23T18:15:35.079024639Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-config.1.gz
+[2023-04-23T18:15:35.080785746Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-attach.1.gz
+[2023-04-23T18:15:35.082074083Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-commit.1.gz
+[2023-04-23T18:15:35.083951738Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-cp.1.gz
+[2023-04-23T18:15:35.085397836Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-create.1.gz
+[2023-04-23T18:15:35.086564570Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-diff.1.gz
+[2023-04-23T18:15:35.087906389Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-exec.1.gz
+[2023-04-23T18:15:35.089218772Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-export.1.gz
+[2023-04-23T18:15:35.090636652Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-inspect.1.gz
+[2023-04-23T18:15:35.091826110Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-kill.1.gz
+[2023-04-23T18:15:35.093361735Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-logs.1.gz
+[2023-04-23T18:15:35.095294775Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-ls.1.gz
+[2023-04-23T18:15:35.097217117Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-pause.1.gz
+[2023-04-23T18:15:35.098717975Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-port.1.gz
+[2023-04-23T18:15:35.099787553Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-prune.1.gz
+[2023-04-23T18:15:35.100720429Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-rename.1.gz
+[2023-04-23T18:15:35.101423715Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-restart.1.gz
+[2023-04-23T18:15:35.102690852Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-rm.1.gz
+[2023-04-23T18:15:35.104397429Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-run.1.gz
+[2023-04-23T18:15:35.105668523Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-start.1.gz
+[2023-04-23T18:15:35.106652076Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-stats.1.gz
+[2023-04-23T18:15:35.107473940Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-stop.1.gz
+[2023-04-23T18:15:35.108648389Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-top.1.gz
+[2023-04-23T18:15:35.109632012Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-unpause.1.gz
+[2023-04-23T18:15:35.110862408Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-update.1.gz
+[2023-04-23T18:15:35.111816685Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container-wait.1.gz
+[2023-04-23T18:15:35.113100678Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-container.1.gz
+[2023-04-23T18:15:35.114923964Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-create.1.gz
+[2023-04-23T18:15:35.115790954Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-export.1.gz
+[2023-04-23T18:15:35.116638306Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-import.1.gz
+[2023-04-23T18:15:35.117346081Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-inspect.1.gz
+[2023-04-23T18:15:35.118063515Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-ls.1.gz
+[2023-04-23T18:15:35.118938350Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-rm.1.gz
+[2023-04-23T18:15:35.119819928Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-update.1.gz
+[2023-04-23T18:15:35.120975010Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context-use.1.gz
+[2023-04-23T18:15:35.121764191Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-context.1.gz
+[2023-04-23T18:15:35.122691616Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-cp.1.gz
+[2023-04-23T18:15:35.123719444Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-create.1.gz
+[2023-04-23T18:15:35.124673801Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-diff.1.gz
+[2023-04-23T18:15:35.125778255Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-events.1.gz
+[2023-04-23T18:15:35.126591191Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-exec.1.gz
+[2023-04-23T18:15:35.127107300Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-export.1.gz
+[2023-04-23T18:15:35.127972076Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-history.1.gz
+[2023-04-23T18:15:35.129435327Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-build.1.gz
+[2023-04-23T18:15:35.130354663Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-history.1.gz
+[2023-04-23T18:15:35.131235209Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-import.1.gz
+[2023-04-23T18:15:35.132180559Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-inspect.1.gz
+[2023-04-23T18:15:35.132994166Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-load.1.gz
+[2023-04-23T18:15:35.133843442Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-ls.1.gz
+[2023-04-23T18:15:35.134542320Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-prune.1.gz
+[2023-04-23T18:15:35.135190892Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-pull.1.gz
+[2023-04-23T18:15:35.135721939Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-push.1.gz
+[2023-04-23T18:15:35.136347797Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-rm.1.gz
+[2023-04-23T18:15:35.137061564Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-save.1.gz
+[2023-04-23T18:15:35.138340517Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image-tag.1.gz
+[2023-04-23T18:15:35.139565447Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-image.1.gz
+[2023-04-23T18:15:35.140723254Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-images.1.gz
+[2023-04-23T18:15:35.141656556Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-import.1.gz
+[2023-04-23T18:15:35.142796859Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-info.1.gz
+[2023-04-23T18:15:35.144631998Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-inspect.1.gz
+[2023-04-23T18:15:35.146505910Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-kill.1.gz
+[2023-04-23T18:15:35.147666503Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-load.1.gz
+[2023-04-23T18:15:35.148929230Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-login.1.gz
+[2023-04-23T18:15:35.149988138Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-logout.1.gz
+[2023-04-23T18:15:35.151016717Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-logs.1.gz
+[2023-04-23T18:15:35.151919064Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-annotate.1.gz
+[2023-04-23T18:15:35.152803608Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-create.1.gz
+[2023-04-23T18:15:35.153822750Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-inspect.1.gz
+[2023-04-23T18:15:35.154741403Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-push.1.gz
+[2023-04-23T18:15:35.155828785Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest-rm.1.gz
+[2023-04-23T18:15:35.156829440Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-manifest.1.gz
+[2023-04-23T18:15:35.157843873Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-connect.1.gz
+[2023-04-23T18:15:35.158934822Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-create.1.gz
+[2023-04-23T18:15:35.159795019Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-disconnect.1.gz
+[2023-04-23T18:15:35.160398274Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-inspect.1.gz
+[2023-04-23T18:15:35.161657138Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-ls.1.gz
+[2023-04-23T18:15:35.163826748Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-prune.1.gz
+[2023-04-23T18:15:35.164814138Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network-rm.1.gz
+[2023-04-23T18:15:35.165782182Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-network.1.gz
+[2023-04-23T18:15:35.166523732Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-demote.1.gz
+[2023-04-23T18:15:35.167094144Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-inspect.1.gz
+[2023-04-23T18:15:35.168052208Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-ls.1.gz
+[2023-04-23T18:15:35.168926802Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-promote.1.gz
+[2023-04-23T18:15:35.169646330Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-ps.1.gz
+[2023-04-23T18:15:35.170304290Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-rm.1.gz
+[2023-04-23T18:15:35.170987708Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node-update.1.gz
+[2023-04-23T18:15:35.171845215Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-node.1.gz
+[2023-04-23T18:15:35.172681336Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-pause.1.gz
+[2023-04-23T18:15:35.173431502Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-create.1.gz
+[2023-04-23T18:15:35.174104851Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-disable.1.gz
+[2023-04-23T18:15:35.174920453Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-enable.1.gz
+[2023-04-23T18:15:35.175719543Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-inspect.1.gz
+[2023-04-23T18:15:35.176245420Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-install.1.gz
+[2023-04-23T18:15:35.176845459Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-ls.1.gz
+[2023-04-23T18:15:35.177707019Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-push.1.gz
+[2023-04-23T18:15:35.178557988Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-rm.1.gz
+[2023-04-23T18:15:35.179516483Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-set.1.gz
+[2023-04-23T18:15:35.180270106Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin-upgrade.1.gz
+[2023-04-23T18:15:35.180989393Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-plugin.1.gz
+[2023-04-23T18:15:35.181734159Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-port.1.gz
+[2023-04-23T18:15:35.182621268Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-ps.1.gz
+[2023-04-23T18:15:35.183770910Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-pull.1.gz
+[2023-04-23T18:15:35.185026553Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-push.1.gz
+[2023-04-23T18:15:35.186078377Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-rename.1.gz
+[2023-04-23T18:15:35.187958447Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-restart.1.gz
+[2023-04-23T18:15:35.188962449Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-rm.1.gz
+[2023-04-23T18:15:35.189937246Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-rmi.1.gz
+[2023-04-23T18:15:35.191395888Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-run.1.gz
+[2023-04-23T18:15:35.192245895Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-save.1.gz
+[2023-04-23T18:15:35.193131852Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-search.1.gz
+[2023-04-23T18:15:35.193946040Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-create.1.gz
+[2023-04-23T18:15:35.194873115Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-inspect.1.gz
+[2023-04-23T18:15:35.195725026Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-ls.1.gz
+[2023-04-23T18:15:35.196587147Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret-rm.1.gz
+[2023-04-23T18:15:35.197435121Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-secret.1.gz
+[2023-04-23T18:15:35.198155830Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-create.1.gz
+[2023-04-23T18:15:35.198829009Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-inspect.1.gz
+[2023-04-23T18:15:35.199402427Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-logs.1.gz
+[2023-04-23T18:15:35.200076848Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-ls.1.gz
+[2023-04-23T18:15:35.200714529Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-ps.1.gz
+[2023-04-23T18:15:35.201688324Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-rm.1.gz
+[2023-04-23T18:15:35.202367154Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-rollback.1.gz
+[2023-04-23T18:15:35.203154020Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-scale.1.gz
+[2023-04-23T18:15:35.203752916Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service-update.1.gz
+[2023-04-23T18:15:35.204262261Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-service.1.gz
+[2023-04-23T18:15:35.204725047Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-deploy.1.gz
+[2023-04-23T18:15:35.205279238Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-ls.1.gz
+[2023-04-23T18:15:35.206086184Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-ps.1.gz
+[2023-04-23T18:15:35.206979885Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-rm.1.gz
+[2023-04-23T18:15:35.207815605Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack-services.1.gz
+[2023-04-23T18:15:35.208748030Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stack.1.gz
+[2023-04-23T18:15:35.209667841Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-start.1.gz
+[2023-04-23T18:15:35.210914538Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stats.1.gz
+[2023-04-23T18:15:35.212393179Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-stop.1.gz
+[2023-04-23T18:15:35.213732914Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-ca.1.gz
+[2023-04-23T18:15:35.215001794Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-init.1.gz
+[2023-04-23T18:15:35.216638858Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-join-token.1.gz
+[2023-04-23T18:15:35.217570832Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-join.1.gz
+[2023-04-23T18:15:35.218472919Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-leave.1.gz
+[2023-04-23T18:15:35.219299121Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-unlock-key.1.gz
+[2023-04-23T18:15:35.220108321Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-unlock.1.gz
+[2023-04-23T18:15:35.220816316Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm-update.1.gz
+[2023-04-23T18:15:35.221583194Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-swarm.1.gz
+[2023-04-23T18:15:35.222349792Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-df.1.gz
+[2023-04-23T18:15:35.223346040Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-events.1.gz
+[2023-04-23T18:15:35.224099142Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-info.1.gz
+[2023-04-23T18:15:35.224702607Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system-prune.1.gz
+[2023-04-23T18:15:35.225586991Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-system.1.gz
+[2023-04-23T18:15:35.226348378Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-tag.1.gz
+[2023-04-23T18:15:35.227075801Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-top.1.gz
+[2023-04-23T18:15:35.228041941Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-inspect.1.gz
+[2023-04-23T18:15:35.229183786Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-key-generate.1.gz
+[2023-04-23T18:15:35.230213819Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-key-load.1.gz
+[2023-04-23T18:15:35.231353245Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-key.1.gz
+[2023-04-23T18:15:35.232129391Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-revoke.1.gz
+[2023-04-23T18:15:35.233252547Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-sign.1.gz
+[2023-04-23T18:15:35.234159593Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-signer-add.1.gz
+[2023-04-23T18:15:35.235079164Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-signer-remove.1.gz
+[2023-04-23T18:15:35.236125057Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust-signer.1.gz
+[2023-04-23T18:15:35.237396441Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-trust.1.gz
+[2023-04-23T18:15:35.239022585Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-unpause.1.gz
+[2023-04-23T18:15:35.239735349Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-update.1.gz
+[2023-04-23T18:15:35.240508550Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-version.1.gz
+[2023-04-23T18:15:35.241373310Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-create.1.gz
+[2023-04-23T18:15:35.242670499Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-inspect.1.gz
+[2023-04-23T18:15:35.244443174Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-ls.1.gz
+[2023-04-23T18:15:35.246129181Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-prune.1.gz
+[2023-04-23T18:15:35.247183736Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume-rm.1.gz
+[2023-04-23T18:15:35.248142436Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-volume.1.gz
+[2023-04-23T18:15:35.248945534Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker-wait.1.gz
+[2023-04-23T18:15:35.249633060Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man1/docker.1.gz
+[2023-04-23T18:15:35.250409868Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man5/Dockerfile.5.gz
+[2023-04-23T18:15:35.251170503Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man5/docker-config-json.5.gz
+[2023-04-23T18:15:35.251812152Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/man/man8/dockerd.8.gz
+[2023-04-23T18:15:35.252686506Z][docker-desktop-user-distro in Ubuntu][I] creating symlink for /usr/share/zsh/vendor-completions/_docker
+[2023-04-23T18:15:35.253548306Z][docker-desktop-user-distro in Ubuntu][I] cli tools successfully installed
+[2023-04-23T18:15:35.253844373Z][docker-desktop-user-distro in Ubuntu][I] docker-desktop-user-distro proxy has started
+[2023-04-23T18:15:35.362629423Z][docker-desktop-user-distro in Ubuntu][I] (6166069f-1) 9da494d4-cross-distro S<-C 9cc4118e-cross-distro-router GET /check
+[2023-04-23T18:15:35.363114202Z][docker-desktop-user-distro in Ubuntu][I] (6166069f-1-1) 53a6dbc7-CrossDistroService C->S WSL2DistroProxy GET /desktop-diagnostics/ping
+[2023-04-23T18:15:35.366780276Z][docker-desktop-user-distro in Ubuntu][I] (6166069f-1-1) 53a6dbc7-CrossDistroService C<-S UnknownServer GET /desktop-diagnostics/ping (3.649071ms): OK
+[2023-04-23T18:15:35.367376918Z][docker-desktop-user-distro in Ubuntu][I] (6166069f-1) 9da494d4-cross-distro S->C 9cc4118e-cross-distro-router GET /check (4.752504ms): OK
+[2023-04-23T22:38:28.901703967Z][docker-desktop-user-distro in Ubuntu][I] proxy >> HEAD /_ping
+[2023-04-23T22:38:28.909804282Z][docker-desktop-user-distro in Ubuntu][I] proxy << HEAD /_ping (8.778218ms)
+[2023-04-23T22:38:28.911064123Z][docker-desktop-user-distro in Ubuntu][I] proxy >> GET /v1.41/containers/json
+[2023-04-23T22:38:28.969300013Z][docker-desktop-user-distro in Ubuntu][I] proxy << GET /v1.41/containers/json (58.195994ms)
+[2023-04-23T22:38:28.979796978Z][docker-desktop-user-distro in Ubuntu][I] (d9d5ce04-1) d79fccaa-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-04-23T22:38:28.984117780Z][docker-desktop-user-distro in Ubuntu][I] (d9d5ce04-1) d79fccaa-WSLIntegrationProxy C<-S 241b5ddd-BackendAPI POST /usage (4.238754ms): OK
